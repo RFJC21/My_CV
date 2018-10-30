@@ -1,0 +1,124 @@
+.header-color {
+  background: #bbd2c5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #292e49,
+    #536976,
+    #bbd2c5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #292e49,
+    #536976,
+    #bbd2c5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #bbd2c5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #292e49,
+    #536976,
+    #bbd2c5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #292e49,
+    #536976,
+    #bbd2c5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.5;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 25px;
+  padding: 1em;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  font-size: 5ex;
+  padding: 8px;
+  justify-content: space-betwwen;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+/* contact--page */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2ex;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  height: 90%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/*elementos dentro da grid */
+
+.contact-grid h2 {
+  font-family: "anton", sans--serif;
+  text-align: center;
+}
+
+.contact-grid p {
+  font-family: "oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-icons i {
+  size: 500px;
+  color: rgb(42, 49, 87);
+  font-size: 85px;
+  margin: auto;
+  padding-right: 50px;
+  padding-block-end: 10px;
+  padding-left: 20px;
+}
