@@ -6,10 +6,14 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-body">
-        <Grid className="contact-grid">
+        <Grid className="about-grid">
           <Cell col={6}>
             <h2>Rui Cabeça</h2>
-            <img src={eu} alt="logo" style={{ height: "400px" }} />
+            <img
+              src={eu}
+              alt="logo"
+              style={{ height: "375px", borderRadius: "200px" }}
+            />
             <p
               style={{
                 width: "75%",
@@ -17,20 +21,24 @@ class Contact extends Component {
                 margin: "auto",
                 paddingTop: "3em"
               }}
-            >
-              Residencia: Alverca do Ribatejo
-            </p>
+            />
           </Cell>
           <Cell col={6}>
-            <h2>Contact me</h2>
-            <hr />
+            <h2>Contact me:</h2>
+            <hr
+              style={{
+                borderTop: "3px solid black",
+                width: "70%",
+                margin: "auto"
+              }}
+            />
 
             <div className="contact-icons">
               <List>
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontFamily: "Anton",
                       textAlign: "center"
                     }}
@@ -40,16 +48,20 @@ class Contact extends Component {
                 </ListItem>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{ fontSize: "25px", fontFamily: "Anton" }}
                   >
                     <i class="far fa-envelope" /> rfj.cabeca@gmail.com
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "25px",
+                      fontFamily: "Anton",
+                      textAlign: "center"
+                    }}
                   >
-                    <i class="fab fa-linkedin" />{" "}
+                    <i className="fab fa-linkedin" />
                     https://www.linkedin.com/in/ruicabeca
                   </ListItemContent>
                 </ListItem>

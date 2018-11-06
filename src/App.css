@@ -66,12 +66,16 @@
 
 .social-links {
   display: flex;
-  font-size: 5ex;
-  padding: 8px;
-  justify-content: space-betwwen;
-  width: 50%;
+  font-size: 8ex;
+  justify-content: center;
   margin: auto;
+}
+
+.social-links i {
   color: white;
+  padding: 60px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 /* contact--page */
@@ -100,6 +104,7 @@
 .contact-grid h2 {
   font-family: "anton", sans--serif;
   text-align: center;
+  font-family: "Anton";
 }
 
 .contact-grid p {
@@ -114,11 +119,31 @@
 }
 
 .contact-icons i {
-  size: 500px;
-  color: rgb(42, 49, 87);
+  color: rgb(30, 36, 71);
   font-size: 85px;
   margin: auto;
   padding-right: 50px;
   padding-block-end: 10px;
-  padding-left: 20px;
+  padding-left: 40px;
+}
+
+/*Resume Page */
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  height: 90%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-text {
 }

@@ -8,21 +8,33 @@ class Landing extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src={eu} alt="avatar" style={{ width: 400, height: 400 }} />
+            <img
+              src={eu}
+              alt="logo3"
+              style={{
+                width: 375,
+                height: 375,
+                borderRadius: "200px"
+              }}
+            />
             <div className="banner-text">
-              <h1>ReactJS Developer & Planning Engineer</h1>
+              <h1>Planning Engineer & ReactJS Developer</h1>
               <p>Rui Cabeça</p>
               <hr />
 
-              <p> React | NodeJS | ORACLE | VBA | Latex </p>
+              <p>
+                {" "}
+                ReactJS | Linux | Oracle Applications | VBA | Latex | Production
+                Planning{" "}
+              </p>
 
               <div className="social-links">
-                <a
-                  href="https://google.pt"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-inkedin-square" aria-hidden="true" />
+                <a href>
+                  <i className="fab fa-react" />
+                </a>
+
+                <a href>
+                  <i class="fab fa-linux" />
                 </a>
               </div>
             </div>
