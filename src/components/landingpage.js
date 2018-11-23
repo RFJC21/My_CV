@@ -24,8 +24,8 @@ class Landing extends Component {
 
               <p>
                 {" "}
-                ReactJS | Linux | Oracle Applications | VBA | Latex | Production
-                Planning{" "}
+                ReactJS | React-Native | Linux | Oracle Applications | VBA |
+                Latex | Production Planning | Power BI{" "}
               </p>
 
               <div className="social-links">

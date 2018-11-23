@@ -63,8 +63,13 @@ class Resume extends Component {
             startYear="Aug 2018"
             endYear="Present"
             jobName="Planning Engineer at OGMA - Indústria Aeronáutica de Portugal S.A, Embraer Group"
-            jobDescription="Oracle Applications:
-            Implementation of ASCP module, unsconstrained and constrained planns; Tests regarding sequence dependent setups and batchable resources"
+            jobDescription="Oracle: Implementation of ASCP, constrained plans.
+            BOM, Inventory and Engineering module parametrizations.
+            
+            Finite capacity tests and parametrizations.
+            Supplier restrictions; setups dependent setup and batchable resources.
+            
+            Development of views in Power BI."
           />
 
           <Experience
@@ -104,9 +109,11 @@ class Resume extends Component {
           <Skills skills="VBA" progress={70} />
           <Skills skills="Linux" progress={60} />
           <Skills skills="ReactJS" progress={20} />
+          <Skills skills="React-Native" progress={10} />
           <Skills skills="Latex" progress={20} />
           <Skills skills="JavaScript" progress={10} />
           <Skills skills="HTML/CSS" progress={10} />
+          <Skills skills="Power BI" progress={30} />
         </Cell>
       </Grid>
     );

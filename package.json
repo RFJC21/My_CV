@@ -2,6 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/RFJC21/PORTFOLIO/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.4.2",
     "gh-pages": "^2.0.1",

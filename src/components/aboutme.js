@@ -24,14 +24,15 @@ class About extends Component {
                 My name is Rui Cabeça, I'm 26 years old, I was born in Évora,
                 and I have a Master’s Degree in Materials Engineering, from the
                 FCT/UNL University. Currently I am working as a Planning
-                Engineer at OGMA, integrated in the Aerostructures area, being
-                part of the team who is responsible for the implementation of
-                the Oracle's Module ASCP. Although I have no background related
-                to Computer Engineering, I am passionate with front-end web
-                development, with particular interest for ReactJS. I am also
-                enthusiast about Oracle applications, production planning and
-                very commited to meet deadlines. Resilience is a key word, and
-                each problem is an opportunity for improvement.{" "}
+                Engineer at OGMA, integrated in the area of Projects and
+                Systems, that is responsible for the implementation of the
+                Oracle's Module ASCP. Although I have no background related to
+                Computer Engineering, I am passionate with front-end web
+                development, with particular interest for ReactJS and
+                React-Native. I am also enthusiast about Oracle applications,
+                production planning and very commited to meet deadlines.
+                Resilience is a key word, and each problem is an opportunity for
+                improvement.{" "}
               </p>
               <p>This app was built with ReactJS.</p>
               <hr
