@@ -67,7 +67,7 @@ class Resume extends Component {
             BOM, Inventory and Engineering module parametrizations.
             
             Finite capacity tests and parametrizations.
-            Supplier restrictions; setups dependent setup and batchable resources.
+            Supplier restrictions; sequence dependent setups and batchable resources.
             
             Development of views in Power BI."
           />
